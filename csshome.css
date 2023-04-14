@@ -5,19 +5,40 @@
     padding: 0;
     text-decoration: none;
     overflow: hidden;
+    
 }
 /*Navbar*/
 nav{
     font-family: 'Bebas Neue', cursive;
-    font-size: 22pt;
+    font-size: 25pt;
     padding: 0vw 0vw 0vw 0vw;
     width: 100vw;
-    height: 6vw;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(168, 74, 74);
+    background-color: rgb(150, 50, 50);
+   
 }
+
+.loginbutton {
+    padding: 0;
+    background-color: rgb(229, 87, 87);
+    font-family: 'bebas neue', cursive;
+    color: beige;
+    width: 6vw;
+    height: 6vh;
+    font-size: 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.loginbutton:hover {
+    transition: all 900ms;
+    background-color: rgb(126, 48, 48);
+}
+
 a{
     color: rgb(255, 255, 221);
 }
